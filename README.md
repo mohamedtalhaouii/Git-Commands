@@ -125,3 +125,8 @@
 | `git stash list` | List stashed changes |  
 | `git stash pop` | Restore top stashed changes |  
 | `git stash drop` | Discard top stashed changes |  
+
+---
+
+<h3 align="center"> 🧑🏻‍💻 | Made By : <a href="https://github.com/mohamedtalhaouii" target="_blank">Mohamed Talhaoui</a></h3>
+
