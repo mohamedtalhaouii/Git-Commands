@@ -1,4 +1,18 @@
-### **Installation & GUIs**  
+### **Git Commands Index**
+
+- **[Installation & GUIs](#installation--guis)**
+- **[Setup](#setup)**
+- **[Setup & Init](#setup--init)**
+- **[Stage & Snapshot](#stage--snapshot)**
+- **[Branch & Merge](#branch--merge)**
+- **[Inspect & Compare](#inspect--compare)**
+- **[Tracking Path Changes](#tracking-path-changes)**
+- **[Ignoring Patterns](#ignoring-patterns)**
+- **[Share & Update](#share--update)**
+- **[Rewrite History](#rewrite-history)**
+- **[Temporary Commits](#temporary-commits)**
+
+## **Installation & GUIs**  
 
 | Command/Link | Description |  
 |-------------|------------|  
@@ -6,9 +20,9 @@
 | [GitHub for Mac](https://mac.github.com) | Mac installer for Git with GUI |  
 | [Git for All Platforms](http://git-scm.com) | Official Git download for Linux/Solaris |  
 
----
 
-### **Setup**  
+
+## **Setup**  
 
 | Command | Description |  
 |---------|------------|  
@@ -16,18 +30,18 @@
 | `git config --global user.email "[valid.email]"` | Set an email for commit attribution |  
 | `git config --global color.ui auto` | Enable colored command-line output |  
 
----
 
-### **Setup & Init**  
+
+## **Setup & Init**  
 
 | Command | Description |  
 |---------|------------|  
 | `git init` | Initialize a directory as a Git repository |  
 | `git clone [url]` | Clone a repository from a URL |  
 
----
 
-### **Stage & Snapshot**  
+
+## **Stage & Snapshot**  
 
 | Command | Description |  
 |---------|------------|  
@@ -38,9 +52,9 @@
 | `git diff --staged` | Show staged changes |  
 | `git commit -m "[descriptive message]"` | Commit staged changes |  
 
----
 
-### **Branch & Merge**  
+
+## **Branch & Merge**  
 
 | Command | Description |  
 |---------|------------|  
@@ -50,9 +64,9 @@
 | `git merge [branch]` | Merge a branch into the current one |  
 | `git log` | Show commit history |  
 
----
 
-### **Inspect & Compare**  
+
+## **Inspect & Compare**  
 
 | Command | Description |  
 |---------|------------|  
@@ -61,9 +75,9 @@
 | `git diff branchB...branchA` | Show changes in branchA not in branchB |  
 | `git show [SHA]` | Show object details in readable format |  
 
----
 
-### **Tracking Path Changes**  
+
+## **Tracking Path Changes**  
 
 | Command | Description |  
 |---------|------------|  
@@ -71,18 +85,18 @@
 | `git mv [existing-path] [new-path]` | Rename/move file and stage change |  
 | `git log --stat -M` | Show commit logs with moved paths |  
 
----
 
-### **Ignoring Patterns**  
+
+## **Ignoring Patterns**  
 
 | Pattern/Command | Description |  
 |----------------|------------|  
 | `logs/` `*.notes` `pattern*/` | Example `.gitignore` entries |  
 | `git config --global core.excludesfile [file]` | Set a global ignore file |  
 
----
 
-### **Share & Update**  
+
+## **Share & Update**  
 
 | Command | Description |  
 |---------|------------|  
@@ -92,18 +106,18 @@
 | `git push [alias] [branch]` | Push local commits to remote |  
 | `git pull` | Fetch and merge from remote |  
 
----
 
-### **Rewrite History**  
+
+## **Rewrite History**  
 
 | Command | Description |  
 |---------|------------|  
 | `git rebase [branch]` | Reapply current branch commits onto another |  
 | `git reset --hard [commit]` | Reset to a commit (clears changes) |  
 
----
 
-### **Temporary Commits**  
+
+## **Temporary Commits**  
 
 | Command | Description |  
 |---------|------------|  
